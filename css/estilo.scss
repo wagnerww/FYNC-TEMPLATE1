@@ -1,0 +1,47 @@
+//Para compilar
+//sass estilo.scss estilo.css
+
+//### variaveis ###
+ $menuFontColor:black !important;
+ $menuFontColorInactive:RGBA(0, 0, 0, 0.4);
+ $backColorPrincipal:#252831 !important;
+ $colorFont:white !important;
+ $backColorMenus:#2ea7de;
+ $borderColor:#3f3f40;
+
+.myTitle{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.fyncHedaer{
+    background-color: $backColorMenus;
+    color: $menuFontColor;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+    color:$menuFontColor;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:$menuFontColorInactive;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: $menuFontColor
+}
+
+body, main, .jumbotron {
+    background-color:$backColorPrincipal;
+    color: $colorFont;
+}
+
+hr{
+   border-top: 1px solid $borderColor;
+    
+}
+
+.btn-primary{
+    background-color: $backColorMenus;
+    border-color:$backColorMenus;
+}
