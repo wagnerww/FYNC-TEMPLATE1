@@ -8,6 +8,7 @@
  $colorFont:white !important;
  $backColorMenus:#2ea7de;
  $borderColor:#3f3f40;
+ $colorFontCard:black;
 
 .myTitle{
     font-weight: bold;
@@ -44,4 +45,14 @@ hr{
 .btn-primary{
     background-color: $backColorMenus;
     border-color:$backColorMenus;
+}
+
+.card{
+    color:$colorFontCard;
+}
+
+.cardIMG{
+    width: 100%;
+    height: 250px;
+
 }
